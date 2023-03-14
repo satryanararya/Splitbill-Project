@@ -86,21 +86,27 @@ class _InputPageState extends State<InputPage> {
                       ),
                     ),
                     SizedBox(height: 20),
-                    Container(
-                      height: 30,
-                      width: 120,
-                      decoration: BoxDecoration(  
-                        color: MyColor.color2,
-                        borderRadius: BorderRadius.circular(30),
-                      ),
-                      child: Center(
-                        child: Text(
-                          'Add More +',
-                          style: TextStyle(
-                            color: Colors.white,
+                    ElevatedButton(
+                      
+                      child: Container(
+                        height: 30,
+                        width: 120,
+                        decoration: BoxDecoration(  
+                          color: MyColor.color2,
+                          borderRadius: BorderRadius.circular(30),
+                        ),
+                        child: Center(
+                          child: Text(
+                            'Add More +',
+                            style: TextStyle(
+                              color: Colors.white,
+                            ),
                           ),
                         ),
                       ),
+                      onPressed: () {
+                        
+                      },
                     ),
                   ],
                 ),
